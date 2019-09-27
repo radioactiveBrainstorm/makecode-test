@@ -1,6 +1,7 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <variables>
-  </variables>
-  <block type="device_forever" x="0" y="0">
+  <variables></variables>
+  <block type="device_forever" disabled="true" x="98" y="0"></block>
+  <block type="setLights" disabled="true" x="0" y="89">
+    <field name="pattern">StatusLight.Orange</field>
   </block>
 </xml>
